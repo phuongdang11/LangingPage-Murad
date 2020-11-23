@@ -10,8 +10,8 @@
         <portal:stylesheetcombiner id="StyleSheetCombiner" runat="server" includejqueryui="false" jqueryuithemename="smoothness" />
         <portal:favicon id="Favicon1" runat="server" />
         <portal:scriptloader id="ScriptLoader1" runat="server" includejqueryuicore="true" includefancybox="true" />
-		<link rel="stylesheet" href="/Data/Sites/1/skins/landingpage11/css/landingpage-core-11.min.css">
-		<link rel="stylesheet" href="/Data/Sites/1/skins/landingpage11/css/landingpage-main-11.min.css">
+		<link rel="stylesheet" href="/Data/Sites/1/skins/landingpage11/css/core.min.css">
+		<link rel="stylesheet" href="/Data/Sites/1/skins/landingpage11/css/main.min.css">
 		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--Start: O2O tracking Code--->
@@ -365,8 +365,8 @@ var expires_date=new Date(today.getTime()+(expires));document.cookie=name+"="+es
             });
             AT.track();
 		</script>
-		<script src="/Data/Sites/1/skins/landingpage11/js/landingpage-core-11.min.js"></script>
-		<script src="/Data/Sites/1/skins/landingpage11/js/landingpage-main-11.min.js"></script>
+		<script src="/Data/Sites/1/skins/landingpage11/js/core.min.js"></script>
+		<script src="/Data/Sites/1/skins/landingpage11/js/main.min.js"></script>
     </body>
 
     </html>
