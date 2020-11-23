@@ -1,0 +1,117 @@
+.banner
+	height: 100vh
+	width: 100%
+	backgroud-size: contain
+	@media screen and ( max-width: 1024.98px )
+		height: 50vh
+	@media screen and ( max-width: 576px )
+		height: 25vh
+	.plugin
+		display: flex
+		justify-content: flex-end
+		padding-top: 20px
+	.icon
+		width: 50px
+		height: 50px
+		border-radius: 50px
+		background: white
+		margin-left: 10px
+		margin-right: 10px
+		font-size: r(35px)
+		display: flex
+		align-items: center
+		justify-content: center
+		color: black
+		transition: .3s
+		a
+			color: black
+		&:hover
+			a
+				color: white
+			background: black
+		@media screen and ( max-width: 1280px )
+			width: 40px
+			height: 40px
+			font-size: r(25px)
+	.search
+		outline: 0	
+		width: 340px
+		border-radius: 50px
+		display: flex
+		border: 2px solid #ffffff
+		overflow: hidden
+		input
+			width: 85%
+			padding-left: 20px
+			color: white
+			background: black
+			outline: 0	
+			border: 0
+			&::placeholder
+				color: white
+		button
+			width: 15%
+			outline: 0
+			border-radius: 0 30px 30px 0
+			border: 2px solid #ffffff
+			background: white 
+		@media screen and ( max-width: 1023px )
+			display: none
+	.search-ipad
+		outline: 0	
+		width: 42px
+		height: 40px
+		border-radius: 50px
+		display: flex
+		border: 2px solid #ffffff
+		overflow: hidden
+		display: flex
+		justify-content: flex-end
+		background: white
+		transition: .3s ease-out
+		&:hover
+			width: 300px
+			background: black
+			overflow: hidden
+			button
+				width: 10%
+				outline: 0
+				padding-left: 25px
+				border-radius: 0 30px 30px 0
+				border: 2px solid #ffffff
+				background: white 
+			input
+				width: 90%
+				background: black
+				display: inline
+				opacity: 1
+		input
+			width: 0
+			opacity: 0
+			padding-left: 20px
+			color: white
+			background: black
+			outline: 0	
+			border: 0
+			transition: .3s ease-out
+			&::placeholder
+				color: white			
+		button
+			display: flex
+			justify-content: flex-end
+			align-items: center
+			padding-right: 5px
+			width: 100%
+			outline: 0
+			// border-radius: 0 30px 30px 0
+			border-radius: 30px
+			border: 2px solid #ffffff
+			background: white
+		@media screen and ( min-width: 1023px )
+			display: none
+	.number
+		font-size: r(30px)
+		color: white
+		display: flex
+		align-items: center
+		justify-content: center
