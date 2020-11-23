@@ -14,11 +14,11 @@
 				<div class="plugin">
 					<div class="icon"><a class="ri-home-8-fill" href="javascript:;"></a></div>
 					<div class="search">
-						<input type="text" placeholder="Search here">
+						<input type="text" placeholder="Search here"/>
 						<button class="material-icons" type="submit">search </button>
 					</div>
 					<div class="search-ipad">
-						<input type="text" placeholder="Search here">
+						<input type="text" placeholder="Search here"/>
 						<button class="material-icons" type="submit">search </button>
 					</div>
 				</div>
