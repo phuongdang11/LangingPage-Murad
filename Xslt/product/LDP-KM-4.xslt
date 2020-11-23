@@ -28,7 +28,7 @@
 						</xsl:attribute>
 					</img>
 				</div>
-				<div class="price">
+				<!-- <div class="price">
 					<xsl:if test="OldPrice != ''">
 						<p><xsl:value-of select="OldPrice" disable-output-escaping="yes"></xsl:value-of></p>
 					</xsl:if>
@@ -43,7 +43,8 @@
 							<xsl:text disable-output-escaping="yes">%</xsl:text>
 						</span>
 					</div>
-				</xsl:if>
+				</xsl:if> -->
+				<xsl:value-of select="EditLink" disable-output-escaping="yes"></xsl:value-of>
 			</div>
 			<div class="btn see-more">
 				<a class=" ">
